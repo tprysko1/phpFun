@@ -1,0 +1,41 @@
+/*
+ *	Custom Variable Declarations
+ *
+ * 	- To customize and overwrite existing Bootstrap Variables, look in this file:
+ * 	- node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
+ *
+ */
+$body: #fff;
+
+$navbar-default-bg:                		   #086DB2;
+$navbar-default-border:           		   darken($navbar-default-bg, 6.5%) !default;
+
+$navbar-default-link-color:                #fff;
+
+// Navbar brand label
+$navbar-default-brand-color:               $navbar-default-link-color !default;
+$navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 5%) !default;
+$navbar-default-brand-hover-bg:            transparent !default;
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+/*
+ *
+ *	Custom CSS Code
+ *
+ */
+
+body { 
+	background-color: $body;
+	padding-top: 50px; 
+}
+
+
+/* 
+ *
+ *	Media Queries
+ *
+ */
+@media (max-width: 979px) {
+	body { padding-top: 50px; }
+}
