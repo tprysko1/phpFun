@@ -4,7 +4,7 @@
 
     <div class="jumbotron">
     	<div class="container">
-       		<h1>Research Matters</h1>
+       		<h1>PHP Fun!</h1>
        		<p><a class="btn btn-primary btn-lg" href="#" role="button">Join now!</a></p>
     	</div>
     </div>
